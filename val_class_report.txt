@@ -1,0 +1,16 @@
+Validation Classification Report (Soft Voting Classifier)
+              precision    recall  f1-score   support
+
+           1     0.9442    0.9518    0.9480       249
+           2     0.7561    0.7045    0.7294        44
+           3     0.8889    0.9231    0.9057        26
+
+    accuracy                         0.9154       319
+   macro avg     0.8631    0.8598    0.8610       319
+weighted avg     0.9138    0.9154    0.9144       319
+
+
+Confusion Matrix (rows=true, cols=pred):
+[[237   9   3]
+ [ 13  31   0]
+ [  1   1  24]]
